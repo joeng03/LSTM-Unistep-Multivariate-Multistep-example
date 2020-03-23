@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, LSTM
 import keras
-from AlphaVantageExample import TechnicalIndicators
+from technicalindicators import TechnicalIndicators
 from matplotlib.pylab import rcParams
 rcParams['figure.figsize'] = 20,10
 TI=TechnicalIndicators()
