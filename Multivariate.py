@@ -3,7 +3,7 @@ import numpy as np
 import pandas_datareader as pdr
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
-from technicalindicators import Technical
+from technicalindicators import TechnicalIndicators
 %matplotlib inline
 from matplotlib.pylab import rcParams
 rcParams['figure.figsize'] = 20,10
